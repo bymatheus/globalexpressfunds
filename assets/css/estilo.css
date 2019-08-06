@@ -3,6 +3,7 @@ Geral
 ============================== */
 /*Fonte*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 
 /*Bootstrap*/
 @import url("bootstrap.min.css");
@@ -10,4 +11,151 @@ Geral
 /* Seta fonte */
 * {
     font-family: 'Montserrat', sans-serif;
+}
+
+.btn-1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgba(55, 64, 176, 0);
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    padding: 19px 37px;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+.btn-1:hover {
+    color: #254099;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+/* ==============================
+Menu
+============================== */
+.top-menu {
+    background-color: #254099;
+    color: #ffffff;
+    font-size: .9rem;
+}
+
+.top-menu p {
+    margin: 0;
+    padding-top: 1.3rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-menu section:first-child {
+    border-left: 1px solid #e6e6e636;
+}
+
+.top-menu .nav .active {
+    border-right: 1px solid #e6e6e636;
+}
+
+.top-menu .nav .nav-item .nav-link {
+    color: #fff;
+    padding: 1.3rem 1rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: transparent !important;
+    z-index: 2;
+}
+
+.navbar .navbar-brand img {
+    border-radius: 100px;
+    width: 94px;
+}
+
+.navbar-nav .nav-link {
+    padding: .7rem 0 !important;
+    margin: 0 1.5rem;
+    border-bottom: .2rem solid transparent;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.navbar-nav .nav-link:hover {
+    border-color: #4a64ba;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-delay: 0s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* ==============================
+Header
+============================== */
+.header {
+    margin-top: -119.23px;
+    z-index: 1;
+}
+
+.header .carousel-item .carousel-caption {
+    right: unset;
+    bottom: unset;
+    left: 15%;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.header .carousel-item .carousel-caption h4 {
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(137, 166, 239);
+    text-transform: uppercase;
+}
+
+.header .carousel-item .carousel-caption h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: .8;
+}
+
+.header .carousel-item .carousel-caption p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2rem;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }to{
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }to{
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.header .carousel-item > img {
+    -webkit-animation: zoom 50s;
+    animation: zoom 50s;
 }

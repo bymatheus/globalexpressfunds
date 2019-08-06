@@ -13,6 +13,11 @@ Geral
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #f5f3f3;
+}
+
+/* Botões */
 .btn-1 {
     font-size: 16px;
     font-weight: 700;
@@ -33,6 +38,32 @@ Geral
     color: #254099;
     background-color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
+}
+
+/* Titulos */
+.section-title {
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: none;
+    color: #fff;
+}
+
+.title-black {
+    color: #232323 !important;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #747474;
+}
+
+.line {
+    border-top: 4px solid #254099;
+    width: 100px;
 }
 
 /* ==============================
@@ -99,12 +130,12 @@ Menu
 /* ==============================
 Header
 ============================== */
-.header {
+.header-container {
     margin-top: -119.23px;
     z-index: 1;
 }
 
-.header .carousel-item .carousel-caption {
+.header-container .carousel-item .carousel-caption {
     right: unset;
     bottom: unset;
     left: 15%;
@@ -116,20 +147,20 @@ Header
     text-align: left;
 }
 
-.header .carousel-item .carousel-caption h4 {
+.header-container .carousel-item .carousel-caption h4 {
     font-size: 50px;
     font-weight: 400;
     color: rgb(137, 166, 239);
     text-transform: uppercase;
 }
 
-.header .carousel-item .carousel-caption h1 {
+.header-container .carousel-item .carousel-caption h1 {
     font-size: 90px;
     font-weight: 700;
     color: rgb(255, 255, 255);
 }
 
-.header .carousel-item .carousel-caption p {
+.header-container .carousel-item .carousel-caption p {
     font-size: 20px;
     line-height: 32px;
     font-weight: 400;
@@ -154,7 +185,7 @@ Header
     }
 }
 
-.header .carousel-item > img {
+.header-container .carousel-item > img {
     -webkit-animation: zoom 50s;
     animation: zoom 50s;
 }
@@ -184,4 +215,46 @@ Services
     top: 50%;
     transform: translateY(-50%);
     position: relative;
+}
+
+/* ==============================
+Funds
+============================== */
+.funds-container {
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+}
+
+.funds-container .section-title,
+.funds-container .section-subtitle {
+    text-align: center;
+}
+
+.funds-container .line {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.funds-container .funds .img-funds {
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+}
+
+.funds-container .funds .content-founds {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    height: 300px;
+}
+
+.funds-container .funds .content-founds h4 {
+    font-size: 20px;
+    text-transform: none;
+    color: #254099;
+}
+
+.funds-container .funds .content-founds p {
+    color: #747474;
+    margin: 0;
+    font-size: .9rem;
 }

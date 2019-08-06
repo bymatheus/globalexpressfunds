@@ -19,17 +19,17 @@ body {
 
 /* Botões */
 .btn-1 {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 400;
     color: rgb(255, 255, 255);
     background-color: rgba(55, 64, 176, 0);
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 30px;
     outline: none;
     box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
-    padding: 19px 37px;
+    padding: 15px 35px;
     text-transform: uppercase;
     transition: .2s;
 }
@@ -38,6 +38,28 @@ body {
     color: #254099;
     background-color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
+}
+
+.btn-2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgba(37, 64, 153);
+    border-color: rgba(37, 64, 153);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+.btn-2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 39, 109);
+    border-color: rgb(18, 39, 109);
 }
 
 /* Titulos */
@@ -195,7 +217,7 @@ Services
 ============================== */
 .service {
     padding: 0 4rem;
-    height: 350px;
+    height: 300px;
 }
 
 .service .txt-service h3 {
@@ -209,6 +231,7 @@ Services
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     color: #D8D8D8;
+    font-weight: 300;
 }
 
 .service .row {
@@ -244,7 +267,7 @@ Funds
 .funds-container .funds .content-founds {
     padding: 2.5rem 2rem;
     background-color: #fff;
-    height: 300px;
+    height: 280px;
 }
 
 .funds-container .funds .content-founds h4 {
@@ -257,6 +280,8 @@ Funds
     color: #747474;
     margin: 0;
     font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 /* ==============================
@@ -267,7 +292,7 @@ About
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 13rem;
+    padding-bottom: 12rem;
 }
 
 .about-container img {
@@ -285,4 +310,99 @@ About
     color: #a5b3df;
     font-size: 19px;
     line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.about-second-grid {
+    margin-top: -7rem;
+}
+
+.about-second-grid .about-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-second-grid .about-content {
+    padding: 5rem 4rem;
+    background-color: #fff;
+}
+
+.about-second-grid .about-content.about-black {
+    background-color: #232323 !important;
+}
+
+.about-second-grid .about-content.about-black h3,
+.about-second-grid .about-content.about-black p {
+    color: #fff;
+}
+
+.about-second-grid .about-content h3 {
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    color: #254099;
+}
+
+.about-second-grid .about-content p,
+.about-second-grid .about-content li {
+    font-size: 17px;
+    color: #8285b3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.about-second-grid .about-content ul {
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.about-second-grid .about-content ul li {
+    margin-bottom: 10px;
+    color: #BCBCBC;
+}
+
+.about-second-grid .about-content .svg-inline--fa {
+    margin-right: 1rem;
+}
+
+.about-third-grid .about-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-third-grid .about-content {
+    padding: 1rem 4rem 6rem;
+    background-color: #e6e6e6;
+}
+
+.about-third-grid .about-content .marks {
+    font-size: 263px;
+    color: #d0cece;
+    margin: 0;
+}
+
+.about-third-grid .about-content .declaration {
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: -212px;
+    margin-left: .9rem;
+    margin-bottom: 0;
+}
+
+.about-third-grid .about-content .name {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-left: .9rem;
+    color: #254099;
+}
+
+.about-third-grid .about-content .about {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+    margin-left: .9rem;
+    color: #254099;
 }

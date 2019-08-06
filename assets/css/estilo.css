@@ -159,3 +159,30 @@ Header
     -webkit-animation: zoom 50s;
     animation: zoom 50s;
 }
+
+/* ==============================
+Services
+============================== */
+.service {
+    padding: 0 4rem;
+    height: 350px;
+}
+
+.service .txt-service h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.service .txt-service p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #D8D8D8;
+}
+
+.service .row {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}

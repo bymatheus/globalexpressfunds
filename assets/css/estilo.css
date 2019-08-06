@@ -242,7 +242,7 @@ Funds
 }
 
 .funds-container .funds .content-founds {
-    padding: 3rem 2rem;
+    padding: 2.5rem 2rem;
     background-color: #fff;
     height: 300px;
 }
@@ -257,4 +257,32 @@ Funds
     color: #747474;
     margin: 0;
     font-size: .9rem;
+}
+
+/* ==============================
+About
+============================== */
+.about-container {
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 13rem;
+}
+
+.about-container img {
+    width: 731px;
+    margin-bottom: 2rem;
+    margin-top: -7rem;
+}
+
+.about-container .section-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-container p {
+    color: #a5b3df;
+    font-size: 19px;
+    line-height: 1.7;
 }

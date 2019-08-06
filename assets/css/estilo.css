@@ -406,3 +406,48 @@ About
     margin-left: .9rem;
     color: #254099;
 }
+
+/* ==============================
+About
+============================== */
+.testimonials-container {
+    background-image: url(../img/testimonial.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 5rem;
+}
+
+.testimonials-container .section-title {
+    text-align: center;
+}
+
+.testimonials-container .carousel-item {
+    height: 300px;
+}
+
+.testimonials-container .carousel-item .carousel-caption {
+    right: 15%;
+    bottom: unset;
+    left: 15%;
+    z-index: 10;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.testimonials-container .carousel-item .carousel-caption p {
+    color: #f9f9f9;
+    font-size: 21px;
+}
+
+.testimonials-container .carousel-item .carousel-caption h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.testimonials-container .carousel-item .carousel-caption h5 small {
+    font-size: 13px;
+    font-weight: 300;
+}

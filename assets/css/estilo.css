@@ -411,7 +411,7 @@ About
 }
 
 /* ==============================
-About
+Testimonials
 ============================== */
 .testimonials-container {
     background-image: url(../img/testimonial.jpg);
@@ -454,4 +454,59 @@ About
 .testimonials-container .carousel-item .carousel-caption h5 small {
     font-size: 13px;
     font-weight: 300;
+}
+
+/* ==============================
+Requirements
+============================== */
+.apply {
+    padding-bottom: 6rem;
+}
+
+.apply .apply-block {
+    background-color: #fff;
+    padding: 5rem 3rem 4rem;
+    margin-bottom: 1rem;
+}
+
+.apply .apply-block h4 {
+    color: #254099;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.apply .apply-block p {
+    color: #928e8e;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.apply .apply-block li {
+    color: #928e8e;
+    margin-bottom: .3rem;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+/* ==============================
+Contact
+============================== */
+.contact {
+    margin-bottom: 5rem;
+}
+
+.contact .line {
+    margin-left: 0;
+}
+
+.contact .section-subtitle {
+    text-transform: none;
+}
+
+.contact .form-control {
+    border-radius: 1px;
+    height: auto;
+    padding: 1rem 1.5rem;
+    border: 0;
+    background-color: #dadada;
+    color: #000;
 }

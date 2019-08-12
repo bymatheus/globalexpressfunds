@@ -149,6 +149,28 @@ Menu
     color: #fff;
 }
 
+@media (max-width: 991px) {
+    .top-menu {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='https://www.w3.org/2000/svg'><path stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+    }
+
+    .navbar-toggler {
+        font-size: 1.75rem;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: #000;
+    }
+}
+
 /* ==============================
 Header
 ============================== */
@@ -158,7 +180,7 @@ Header
 }
 
 .header-container .carousel-item .carousel-caption {
-    right: unset;
+    right: 15%;
     bottom: unset;
     left: 15%;
     z-index: 10;
@@ -215,6 +237,41 @@ Header
     animation: zoom 50s;
 }
 
+@media (max-width: 1443px) {
+    .header-container .carousel-item .carousel-caption h4 {
+        font-size: 25px;
+    }
+    
+    .header-container .carousel-item .carousel-caption h1 {
+        font-size: 50px;
+    }
+    
+    .header-container .carousel-item .carousel-caption p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-container .carousel-item .carousel-caption {
+        top: 55%;
+    }
+
+    .header-container .carousel-item > img {
+        width: 150% !important;
+    }
+}
+
+@media (max-width: 765px) {
+    .header-container .carousel-item .carousel-caption.d-none {
+        display: block !important;
+    }
+
+    .header-container .carousel-item > img {
+        width: 200% !important;
+    }
+}
+
 /* ==============================
 Services
 ============================== */
@@ -241,6 +298,20 @@ Services
     top: 50%;
     transform: translateY(-50%);
     position: relative;
+}
+
+@media (max-width: 1199px) {
+    .service {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 765px) {
+    .service .img-service {
+        margin-bottom: 1.3rem;
+    }
 }
 
 /* ==============================
@@ -285,6 +356,12 @@ Funds
     font-size: .9rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+}
+
+@media (max-width: 991px) {
+    .funds-container .funds {
+        margin-bottom: 2rem;
+    }
 }
 
 /* ==============================
@@ -408,6 +485,16 @@ About
     margin-bottom: 0;
     margin-left: .9rem;
     color: #254099;
+}
+
+@media (max-width: 991px) {
+    .about-second-grid .about-img {
+        height: 200px;
+    }
+
+    .about-third-grid .about-img {
+        display: none;
+    }
 }
 
 /* ==============================
@@ -563,4 +650,26 @@ Footer
 .after-footer p {
     margin: 0;
     color: #a9a6a6;
+}
+
+@media (max-width: 991px) {
+    .footer img {
+        display: block;
+        margin: 0 auto 1rem;
+    }
+
+    .footer .email p {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .after-footer p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 765px) {
+    .pre-footer .col-sm-12:last-child p {
+        margin-top: 1rem;
+    }
 }
